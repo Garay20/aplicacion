@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/fondoac">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginRight="247dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="atras2"
+        android:text="@string/atras2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/actualizacion"
+        android:layout_width="294dp"
+        android:layout_height="432dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:scrollbars="vertical"
+        android:text="@string/persona_natural_comerciante_individual_1_tarjeta_de_identidad_para_hondure_os_original_y_fotocopia_2_pasaporte_o_carn_de_residente_para_extranjeros_original_y_fotocopia_3_llenar_y_firmar_declaraci_n_jurada_de_inscripci_n_actualizaci_n_de_persona_natural_formulario_sar_410_4_llenar_y_firmar_formulario_anexo_410_a_declaraci_n_jurada_de_inscripciones_inicio_de_actividades_y_actualizaci_n_al_registro_tributario_nacional_en_caso_de_establecimientos_agencias_o_sucursales_5_documento_original_y_fotocopia_del_permiso_de_operaciones_o_solicitud_de_tr_mite_presentada_en_la_alcald_a_municipal_establecimientos_agencias_o_sucursales_de_comerciantes_individuales_6_comprobante_de_domicilio_que_contenga_la_direcci_n_exacta_original_y_fotocopia_de_los_siguientes_documentos_o_recibo_de_un_servicio_p_blico_contrato_de_alquiler_o_arrendamiento_comercial_constancia_de_la_vecindad_persona_natural_recibo_de_suscripci_n_de_servicios_privados_internet_cable_telefon_a"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/actualizaci_n_del_rtn"
+        android:textColor="@color/colortrxtoi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/actualizacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

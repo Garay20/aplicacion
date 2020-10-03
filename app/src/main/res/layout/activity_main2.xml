@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@drawable/fondoac">
+
+
+    <Button
+        android:id="@+id/boton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:onClick="atras1"
+        android:text="@string/atras2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textinscipcion"
+        android:layout_width="282dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:scrollbars="vertical"
+        android:text="@string/requisitos_persona_natural_llenar_y_firmar_la_declaraci_n_jurada_de_inscripci_n_actualizaci_n_de_persona_natural_en_el_formulario_sar_410_1_tarjeta_de_identidad_para_hondure_os_original_y_fotocopia_2_pasaporte_o_carn_de_residente_para_extranjeros_original_y_fotocopia_3_original_y_fotocopia_del_documento_que_acredite_su_direcci_n_exacta_recibo_de_un_servicio_p_blico_contrato_de_alquiler_o_arrendamiento_comercial_constancia_de_la_vecindad_recibo_de_suscripci_n_de_servicios_privados_internet_cable_telefon_a_4_en_caso_de_ser_solicitado_por_un_representante_procesal_o_apoderado_legal_se_deber_de_identificar_lo_siguiente_si_tiene_facultades_para_compadecer_a_realizar_el_tr_mite_si_tiene_facultades_para_firmar_si_tiene_facultades_nicamente_para_presentar_y_no_firmar_deber_de_presentar_el_formulario_410_firmado_por_el_obligado_tributario_este_deber_acompa_ar_original_y_fotocopia_del_poder_o_carta_poder_debidamente_autenticado_y_fotocopia_de_su_tarjeta_de_identidad_no_ser_requerida_la_presentaci_n_del_documento_original_de_la_tarjeta_de_identidad_pasaporte_o_carn_de_residencia_de_la_persona_representada_personas_natural_que_requiere_rtn_para_gestionar_una_fyduca_de_oficio_rtn_emitido_nicamente_en_los_centros_de_control_de_los_puestos_fronterizos_integrados_de_la_uni_n_aduanera_guatemala_honduras_y_el_salvador_para_aquellas_personas_ciudadanos_de_los_estados_parte_que_no_presentan_declaraci_n_mensual_de_impuesto_sobre_ventas_1_llenar_y_firmar_declaraci_n_jurada_de_inscripci_n_actualizaci_n_de_persona_natural_formulario_sar_410_2_identificaci_n_emitida_en_uno_de_los_pa_ses_partes_original_y_fotocopia"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton19" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/inscripci_n_del_rtn"
+        android:textColor="@color/colortrxtoi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textinscipcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton19" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

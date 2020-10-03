@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="@drawable/fondoac">
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginRight="263dp"
+        android:onClick="atras4"
+        android:text="@string/atras5"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cuarta"
+        android:layout_width="278dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:scrollbars="vertical"
+        android:text="@string/considerando_que_en_la_actualidad_los_grupos_de_asociaci_n_il_cita_han_evolucionado_su_modus_operandi_de_tal_forma_que_su_actividad_delictiva_no_solamente_va_dirigida_a_producir_un_da_o_espec_fico_contra_sus_v_ctimas_sino_que_utilizan_este_da_o_o_amenaza_como_medio_para_causar_intimidaci_n_y_temor_en_la_poblaci_n_con_el_objeto_de_coaccionar_a_la_sociedad_o_al_estado_para_que_hagan_o_dejen_de_hacer_algo_considerando_que_de_conformidad_con_el_art_culo_87_de_la_constituci_n_de_la_rep_blica_las_c_rceles_son_establecimientos_de_seguridad_y_defensa_social_en_los_que_se_procurar_la_rehabilitaci_n_de_las_personas_privadas_de_libertad_y_su_preparaci_n_para_el_trabajo_considerando_que_los_establecimientos_penales_constituyen_un_componente_esencial_del_sistema_de_justicia_penal_del_pa_s_para_garantizar_la_seguridad_de_los_habitantes_de_la_rep_blica"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="9dp"
+        android:gravity="center"
+        android:text="@string/declaraci_n_inicio_de_operaciones"
+        android:textColor="@color/colortrxtoi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cuarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
